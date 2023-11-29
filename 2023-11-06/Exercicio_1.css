@@ -1,0 +1,13 @@
+.paragrafo {
+    width: 150px;
+    height: 100px;
+    color: pink;
+    font-family: Arial;
+    border-top: 2px dashed blue;
+    border-left: 2px dotted green;
+    border-bottom: 2px double red;
+    border-right: none;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  

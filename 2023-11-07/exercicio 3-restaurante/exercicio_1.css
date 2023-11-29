@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #808080;
+    background-image: url(Imagens/xtudo.jpg);
+    background-repeat: repeat;
+}
+.quadrado{
+    width: 25em;
+    margin: auto ;
+    background-color: #808080;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.title{
+    color: #a10303;
+    font-size: 2em;
+}
+
+.proprietarioImagem{
+    width:2em ;
+    height: 2em;
+    margin-top: 40px;
+}
+
+.clienteImagem{
+    width:2em ;
+    height: 2em;
+    
+}
+
+a{
+    color: #a10303;
+}
+
+h3{
+    color:black
+}
+
+.voltar{
+    color:cadetblue;
+    text-decoration: none;
+}
+
+li{
+    margin: 25px;
+}
+
+.ingredientes, .conteudo{
+    color: black;
+}

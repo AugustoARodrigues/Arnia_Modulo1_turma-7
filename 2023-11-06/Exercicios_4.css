@@ -1,0 +1,23 @@
+/* *{
+    margin:0 ;
+    padding: 0;
+} */
+/* obs: para tirar aquele espaçamento da tela no inicio usar isso a cima*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.imagem{
+    width: auto;
+    height: auto;
+    background-color: blueviolet;
+}
+
+.incricao{
+    color: blueviolet;
+}
+
+li{
+    color: orange;
+    font-size: 25px;
+}

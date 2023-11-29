@@ -1,0 +1,19 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.lista{
+    font-size: 32px;
+    color:forestgreen;
+}
+.nomes {
+    font-size: 18px;
+    color:forestgreen;
+}
+#link{
+    color: green;
+}
+
+.voltar{
+    color: gray;
+}
