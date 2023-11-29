@@ -1,0 +1,24 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+    background-color: #b4b4b457;
+}
+
+#listaq{
+}
+
+#quardP{
+    width: 25em;
+    height: 25em;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border-radius: 8px;
+    margin: 1em auto;
+    text-align: center;
+    box-shadow: 0px 1px 5px 1px grey;
+}
+
+#img{
+    width: 55%;
+    height: 55%;
+    margin-left: 1em auto;
+}

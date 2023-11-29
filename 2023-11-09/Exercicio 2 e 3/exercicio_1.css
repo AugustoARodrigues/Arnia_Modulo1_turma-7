@@ -1,0 +1,168 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    /* color:#a10303;  nao esta aindo so na primeira div */
+    background-image: url(Imagens/xtudo.jpg);
+    background-repeat: repeat;
+}
+.quadrado{
+    width: 25em;
+    margin: auto ;
+    background-color: #ffffc8;
+    padding: 2em;
+    border-radius: 8px;
+}
+
+.title{
+    color: #a10303;
+    font-size: 38px;
+    text-align: center;
+    font-style: italic;
+}
+
+.proprietarioImagem{
+    width:2em ;
+    height: 2em;
+    margin-top: 40px;
+}
+
+.clienteImagem{
+    width:2em ;
+    height: 2em;
+    
+}
+
+a{
+    color: #a10303;
+}
+
+/* h3{
+    color:#a10303
+} */
+
+.voltar{
+    color:black;
+    text-decoration: none;
+}
+
+li{
+    margin: 25px;
+}
+
+.ingredientes, .conteudo{
+    color: black;
+}
+
+
+
+
+/* -------------------------------------------- */
+
+
+form{
+    color: black;
+}
+
+label{
+    margin-top: 15px;
+}
+input{
+    margin: 5px 0 15px 0 ;
+}
+select{
+    margin: 5px 0 15px 0 ;
+}
+textarea{
+    margin: 5px 0 15px 0 ;
+    width: 55%;
+    height: 45px;
+}
+
+button{
+    margin:15px 0px 15px 0
+}
+
+/* .logo1{
+    margin-left: 35%;
+} */  
+
+/* ou */
+
+.logo{
+    margin-left: 9em; 
+}
+
+.login{
+    color: #a10303;
+    font-size: 2em;
+    text-align: center;
+    /* margin-top: -5px;     */
+    /*AQUI COMO USAR SEM O  (-)*/
+}
+
+.loginC{
+    color: #a10303;
+    text-align: center;
+    font-size: 18px;
+}
+
+.entrar{
+    color: #a10303;
+    font-size: 1em;
+    text-align: center;
+}
+
+p{
+    color: #a10303;
+    text-align:center;
+    font-size: 18px;
+    margin: 0; /*Aqui para tirar a diferença de baixo*/
+}
+
+strong{
+    color: #a10303;
+}
+
+
+.acessar{
+    color: #a10303;
+    font-size: 1em;
+    text-align: center;
+}
+
+.sair{
+    color:black;
+    /* text-decoration: none; */
+    margin-left: 12em;
+}
+
+.texto{
+    color: #a10303;
+    font-size: 24px;
+    text-align: center;
+}
+
+.X-Burguer{
+    text-align: center;
+    color: #a10303;
+    /* margin-top: -10px;     */
+    /*AQUI COMO USAR SEM O  (-)*/
+    margin-bottom: 10px;
+
+}
+
+.hambugues{
+    width:50% ;
+    height: 50%;
+    /* margin-top: -10px;    */
+     /*AQUI COMO USAR SEM O  (-)*/
+}
+
+.X-Burguer2{
+    text-align: center;
+    color: #a10303;
+}
+
+.valorproduto{
+    font-size: 24px;
+    font-weight: bold;
+}

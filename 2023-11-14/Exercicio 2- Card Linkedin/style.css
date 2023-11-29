@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #dedede;
+}
+
+.retang {
+  width: 300px;
+  height: 420px;
+  background-color: #fff;
+  margin: 5em auto;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px 1px #0a66c2;
+  position: relative;
+}
+.d-foto {
+  /* display: flex; */
+  align-content: center;
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  
+  /* margin: -50px 0 0 100%;   */
+  /*tem como centralizar de forma mais rapido e sem usar o negativo */
+  /* object-fit: cover;  */ /*ver o que faz*/
+}
+
+.d-nome {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  padding: 80px 0 5px 0;
+}
+
+.nome {
+}
+
+.d-title1 {
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+}
+
+.title1 {
+}
+
+.d-lista {
+  margin: 0 0 0 0;
+  color: #0a66c2;
+  font-weight: bold;
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.lista {
+  margin: 10px;
+  margin-left: 50px;
+}
+
+.lista2 {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 25px 20px 0 0;
+}
+
+button {
+  margin-left: 8px;
+  width: 95%;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: #0a66c2;
+  color: #fff;
+}

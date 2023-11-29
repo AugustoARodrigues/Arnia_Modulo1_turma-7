@@ -1,0 +1,141 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(243.36deg, #7526f59e 0%, #7f38f329 
+22.93%, #f5f5f51f 98%);
+}
+
+.home{
+    /* height: 50%; */
+
+}
+
+.header{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 95%;
+    height: 100px;
+    justify-content: space-between;
+    /* aquiiiiiii*/
+
+}
+
+.bank{
+/* border: 1px solid red; */
+margin: 0 0 0 100px;
+padding: 5px;
+}
+
+.selecao{
+    /* justify-content: space-between; */
+     /* porque nao funciona ,só com ele, em vez da div pai*/
+
+
+    /* border: 1px solid yellow; */
+       padding: 10px;
+       /* aqui como colocar e mover os nomes para cima e para baixo sem o margen*/
+       /* align-self: end; */
+       /* align-items: end; */
+       /* align-content:flex-end; */
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    /* border: 1px solid black; */
+}
+
+li{
+margin: 0;
+display: inline-block;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+a:hover{
+    color: blueviolet;
+}
+
+.corpo{
+
+    display: flex;
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 350px;
+    padding: 3em ;
+    justify-content: space-around;
+
+}
+
+.corpo-conteudo{
+/* border: 1px solid yellow; */
+margin: 0;
+padding: 2%;
+width: 450px;
+/* justify-content: space-between; */
+
+
+}
+
+.conteudo-1{
+    color: #AE218F;
+    font-size: 18px;
+}
+
+.conteudo-2{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.conteudo-3{
+    
+}
+
+.corpo-butao{
+    /* border: 1px solid hotpink; */
+width: 80%;
+height: 20%;
+}
+
+.butao-entrar{
+background-color: #9D6DEC;
+width: 45%;
+height: 100%;
+border-radius: 20px;
+border-color: transparent;
+
+
+}
+
+.butao-sair{
+border: 1px solid #6100FF;
+width: 45%;
+height: 100%;
+margin-left: 30px;
+border-radius: 20px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.corpo-imagem{
+    /* border: 1px solid blue; */
+width: 450px;
+margin-right: 85px;
+}
+
+.img-corpo{
+    width:28% ;
+    position:fixed ;
+    margin: -25px 0 0 0;
+}
+

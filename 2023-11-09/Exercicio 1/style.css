@@ -1,0 +1,52 @@
+body{
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #A7D7C5;
+}
+
+.formulario{
+    background-color: #f7f7f7;
+    width: 80%;
+    height: 50%;
+    margin: 1em auto;
+    border-radius: 15px;
+    box-shadow: 0 1px 5px 1px gray;
+}
+h1{
+    text-align: center;
+    padding-top: 40px;
+}
+p{
+    font-size: 11px;
+    text-align: center;
+    padding: auto;
+}
+form{
+    margin: 15px;
+    
+}
+
+label{
+    margin: 5px;
+}
+
+input{
+    width: 96%;
+    height: 25px;
+    margin-left: 5px;
+    box-shadow: 2px slategray;
+    border-radius: 5px ;
+    margin: 5px;
+    
+}
+
+button{
+    background-color:  #49b98f;
+    width: 96%;
+    height: 35px;
+    margin: 15px 0 30px 12px;
+    border-radius: 9px;
+    color:floralwhite;
+    border: none;
+
+}

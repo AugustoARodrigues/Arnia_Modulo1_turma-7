@@ -1,0 +1,47 @@
+
+
+ul{
+
+}
+
+li{
+    width: 150px;
+    height: 50px;
+    list-style: none;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 5px;
+    background-color:aqua;
+}
+
+li:hover{
+    background-color: darkgray;
+
+}
+
+.lista{
+}
+
+.listalink{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.nomePricipal{
+    color: blue;
+}
+
+.eu{
+    width: 25%;
+    height: 25%;
+}
+
+.email{
+    width: 200px;
+}
+
+.telf{
+    width: 200px;
+}
+

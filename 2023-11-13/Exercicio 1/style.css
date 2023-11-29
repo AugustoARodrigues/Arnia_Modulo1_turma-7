@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1440px;
+  height: 1024px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  width: 1440px;
+  height: 301px;
+  background: #6950a1;
+  padding: 2em;
+  position: relative;
+}
+
+.arnia {
+  width: 128px;
+  height: 38px;
+}
+
+.titleheader {
+  width: 948px;
+  height: 96px;
+  font-size: 32px;
+  color: #ffffff;
+  margin-top: 3em;
+}
+
+.conteudo1 {
+  width: 785px;
+  font-size: 24px;
+  color: #2b2b2b;
+  padding: 2em 0 0 2em;
+}
+
+.conteudo2 {
+  width: 860px;
+  height: 210px;
+  padding: 2em 0 0 2em;
+  font-size: 20px;
+  color: #000;
+}
+
+.conteudo2-2 {
+  margin: 2em 0 0 2em;
+}
+
+.formulario {
+  width: 372px;
+  height: 608px;
+  border-radius: 15px;
+  border: 2px solid #6950a1;
+  margin-left: 50px;
+  position: absolute;
+  left: 880px;
+  top: 230px;
+}
+
+.qformulario {
+  background-color: #1a1033;
+  width: 372px;
+  height: 173px;
+  top: 150px;
+  left: 1001px;
+  border-radius: 15px;
+}
+
+.conteudoformulario {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  padding: 1em;
+}
+
+.conteudoformulario2 {
+  padding: 1em;
+}
+
+.conteudoformulario2_1 {
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #2b2b2b;
+  margin-top: 12px;
+}
+
+input {
+  width: 332px;
+  height: 32px;
+  margin-top: 12px;
+  border-radius: 5px;
+  border: 1px solid #6950a1;
+}
+
+.button {
+  margin-left: 1em;
+}
+
+.buttonativo {
+  width: 332px;
+  height: 49px;
+  border-radius: 20px;
+  background-color: #6950a1;
+  border: none;
+  box-shadow: 0 0 2px 1px #2b2b2b;
+  color: #ffffff;
+}
+
+@media screen and {
+  
+}

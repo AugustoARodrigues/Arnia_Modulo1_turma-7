@@ -1,0 +1,12 @@
+.cabecario{
+    border: 2px solid black;
+    padding-bottom: 15px;
+}
+
+a{
+    margin-left: 10px;
+}
+
+.inicio{
+    color:  red;
+}
