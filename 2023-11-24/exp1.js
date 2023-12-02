@@ -7,7 +7,7 @@ resultado = num1 + num2
 console.log(resultado)
 
 
-// se utiliza o const para 
+// usando const pois a variável nunca mudará de valor
 const num3 = 3     
 const num4 = 4
 resultado2 = num3 + num4
