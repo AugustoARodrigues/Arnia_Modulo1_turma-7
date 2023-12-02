@@ -4,3 +4,5 @@ const io = require('../io/io')
 io.write('Digite o primeiro numero: ')
 const numero1 = io.readInt()
 
+io.write(`O numero 1 digitado foi:  ${numero1}`)
+
