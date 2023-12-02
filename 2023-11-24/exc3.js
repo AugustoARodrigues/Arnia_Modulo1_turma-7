@@ -11,5 +11,5 @@ const numero2 = io.readInt()
 
 divisao = numero1 % numero2
 
-io.write(`O resto da Divisao é: ${resultado}`)
+io.write(`O resto da Divisao é: ${divisao}`)
 

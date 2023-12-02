@@ -8,4 +8,5 @@ const numero = io.readInt()
 
 resultado = numero**2
 
-io.write(`O Numero Digitado é:${numero} e Sua raiz quadrada é: ${resultado}`)
+//io.write(`O Numero Digitado é: ${numero}. E Sua raiz quadrada é: ${resultado}`)1
+io.write(`E Sua raiz quadrada é: ${resultado}`)
