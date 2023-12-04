@@ -11,4 +11,4 @@ while (iterador < 100) {
         io.write(`O número ${iterador} é ímpar`)
     }
     iterador++
-}
+    }

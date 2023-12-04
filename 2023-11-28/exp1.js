@@ -10,5 +10,6 @@ while (contador <= 10) {//laço ou looping
 
     contador = contador + 1 //altera o valor do iterador (soma + 1)
 
-    io.write(contador)
+    // se começa com o contador "1" se nao colocar isso vai ficar infinito
+    io.write(contador) // com esse ele para aonde mandamos + 1
 }

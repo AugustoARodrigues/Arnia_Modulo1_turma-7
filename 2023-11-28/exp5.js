@@ -8,6 +8,6 @@ let iterador = 0 // esse nome vai começa a contagem de 0
 while (iterador < 10) {  // enquanto o nome seja menor que 10 continua repetindo
     io.write(nome)   // vai escrevendo o nome
     iterador++  // o nome + 1 ate a contagem que pedi
-    io,io.write(iterador)
+    io,io.write(iterador) // vai numerar
 
 }

@@ -7,5 +7,5 @@ while (iterador < 15) {//laço ou looping
     io.write('Arnia')
 
     iterador = iterador + 1 //altera o valor do iterador (soma + 1)
-    io.write(iterador)
+    io.write(iterador) // vai mostra a contagem 
 }
