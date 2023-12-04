@@ -6,20 +6,17 @@
 
 const io = require('../io/io')
 
-
 let anosFumando
 let valorDeCigarro
-let quantidadeDeCigarros
 let cigarroPorDia
 let dias
 let gastoTotal
 let precoPorUnidade
-let calcularVicio = 0
 
 
-precoPorUnidade = valorDeCigarro / 20
-dias = anosFumando * 365
-gastoTotal = cigarroPorDia * dias * precoPorUnidade
+// precoPorUnidade = valorDeCigarro / 20
+// dias = anosFumando * 365
+// gastoTotal = cigarroPorDia * dias * precoPorUnidade
 
 io.write('Digite o numero de anos que fuma: ')
 anosFumando = io.readInt()
@@ -30,6 +27,10 @@ cigarroPorDia = io.readInt()
 io.write('Digite o valor do Cigarro: ')
 valorDeCigarro = io.readFloat() // para valor
 
+// a comando da função tem que ser ser depois que execultar o comando
+precoPorUnidade = valorDeCigarro / 20
+dias = anosFumando * 365
+gastoTotal = cigarroPorDia * dias * precoPorUnidade
 
 io.write(`O total gasto é: ${gastoTotal}`)
 
