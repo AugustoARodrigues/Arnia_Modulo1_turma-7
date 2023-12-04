@@ -4,8 +4,6 @@
 // ser menor que a soma dos outros dois. Suponha que o maior lado sempre 
 // será digitado primeiro.
 
-
-
 const io = require('../io/io')
 
 io.write('Digite o primeiro lado de um Triangulo:')

@@ -6,7 +6,7 @@ const io = require('../io/io')
 io.write('Digite seu primeiro numero:')
 const numero1 = io.readInt()
 
-
+/
 io.write('Digite seu segundo numero:')
 const numero2 = io.readInt()
 
