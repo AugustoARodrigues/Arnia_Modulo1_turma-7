@@ -6,8 +6,9 @@ const io = require('../io/io')
 
 let idade
 let altura
-let maiorAltura
-let maiorIdade
+let maiorAltura = 0
+let maiorIdade = 0
+let somaAltura = 0
 
 for(let i=0; i < 2; i++){
     io.write('Digite sua Idade: ')
@@ -15,12 +16,16 @@ for(let i=0; i < 2; i++){
 
     io.write('Digite sua Altura: ')
     altura = io.readFloat()
+    somaAltura = somaAltura + idade
 
-    if( idade < maiorIdade && altura > maiorAltura){
-        maiorAltura = altura
+    if( idade > maiorIdade){
         maiorIdade = idade
+    } 
+
+    if(altura > maiorAltura){
+        maiorAltura = altura
     }
 }
-//io.write(`A maior idade é: ${maiorIdade} e a maior altura é: ${maiorAltura}`)
-io.write(maiorAltura)
-//io.write(maiorIdade)
+  const mediaAltura = somaAltura / 2
+
+io.write(`A maior idade é: ${maiorIdade} e a maior altura é: ${maiorAltura} e a media das Altura é: ${mediaAltura}`)

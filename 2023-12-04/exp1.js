@@ -1,11 +1,13 @@
-const io = require('../io/io')
+function somarValores(numeros) {
+    let soma = 0
 
-// faça um programa que receba um numero. Use uma função para calcular 
+    for (let i = 0; i < numeros.length; i++) {
+        soma += numeros[i]
+    }
 
-function calcularDobro(teste){
-    const resultado = teste * 2 
-    io.write(resultado)
+    return soma
 }
-io.write('--- Ca')
-const numero = io.readInt()
-calcularDobro(numero)
+
+const numeros = [1, 2, 3, 4, 5]
+const soma = somarValores(numeros)
+console.log(soma)
