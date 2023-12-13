@@ -11,8 +11,9 @@ const calcularArray = (numeros) => {
     } else {
         return numero * 3
     }
-  });
-  console.log(novoArray);
+  })
+  const resultadoFiltrado = novoArray.filter(numero => numero < 100);
+  console.log(resultadoFiltrado);
 };
 
 calcularArray([10, 15, 20, 25, 30, 35, 40]);
