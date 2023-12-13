@@ -4,7 +4,6 @@
 
 const io = require('../io/io')
 
-
 io.write('Digite sua Idade, para saber sua categoria:')
 const idade = io.readInt()
 
