@@ -15,7 +15,7 @@ const io= require('../io/io')
 const palavras = ['casa', 'carro', 'bicicleta', 'abacaxi', 'livro']
 
 
-// ex1: Mais facil
+// ex1: 1º Forma de fazer => Mais facil
 const filtrarPalavras=(array, callback)=>{
     const filtrar = array.filter((palavra)=> {
         return callback(palavra)
@@ -29,7 +29,7 @@ console.log(resultado)
 
 console.log('-----------------------------')
 
-// ex2: Mais dificil, mais simples
+// ex2: 2º Forma de fazer => Mais dificil, mais simples
 
 const filtrarPalavras2=(array, callback)=>{
     return array.filter(callback)

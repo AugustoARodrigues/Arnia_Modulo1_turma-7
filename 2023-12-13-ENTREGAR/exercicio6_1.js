@@ -14,7 +14,7 @@
 
 const io = require("../io/io");
 
-// ex2:  Complexo =)
+// ex2: 2º Forma de fazer => Complexo =)
 class Produto {
   constructor(id, nome, preco, quantidade) {
     this.id = id

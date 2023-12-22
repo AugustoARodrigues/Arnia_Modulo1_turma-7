@@ -36,7 +36,7 @@ const estudantes = [
 ]
 
 
-// ex 1:  Simples  =)
+// ex 1: 1º Forma de fazer => Simples  =)
 
    const aplicarDesconto = (estudantes, calcularDesconto)=> {
     return estudantes.map((estudante)=>{

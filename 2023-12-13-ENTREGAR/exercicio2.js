@@ -20,7 +20,7 @@ const produtos = [
   { id: 3, nome: "Tênis", preco: 99.9 },
 ]
 
-// ex1: Mais dificil
+// ex1: 1º Forma de fazer => Mais dificil
 function calcularTotal() {
   let somatorio = 0
 
@@ -35,7 +35,7 @@ console.log(resultado)
 
 console.log("--------------------------------")
 
-// ex2: Mais facil
+// ex2: 2º Forma de fazer => Mais facil
 
 function calcularTotal2() {
   const precos = produtos.map((produto) => {

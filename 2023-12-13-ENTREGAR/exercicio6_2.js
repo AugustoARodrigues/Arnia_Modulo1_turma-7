@@ -15,7 +15,7 @@
 const io = require("../io/io")
 
 
-// ex3:  NAo terminado   "DUVIDAAAAAAAAAAAAAAAAA"
+// ex3: 3º Forma de fazer =>  NAo terminado   "DUVIDAAAAAAAAAAAAAAAAA"
 
 class Produto {
   constructor(id, nome, preco, quantidade) {

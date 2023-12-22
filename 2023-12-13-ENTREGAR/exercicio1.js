@@ -9,7 +9,7 @@
 
 const io= require('../io/io')
 
-// ex 1: 
+// ex 1: 1º Forma de fazer => 
 
 function somarValores(){
     const array =[]
@@ -26,7 +26,7 @@ console.log(`A soma de todos os Numeros Digitado é: ${resultado}`)
 
 console.log('-----------------------------------------------------')
   
-// ex 2: Forma simples
+// ex 2: 2º Forma de fazer => Forma simples
 
 function somarValores2(){
     const soma = numeros.reduce((acc, numero)=> acc + numero, 0)

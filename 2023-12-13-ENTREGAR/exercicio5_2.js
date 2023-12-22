@@ -34,7 +34,7 @@ const estudantes = [
     { nome: "Pedro", idade: 18 },
     { nome: "Ana", idade: 21 },
   ]
-  //ex 3: Mais dificil, utilizando oq acabamos de aprender mais ainda nao conseguir tirar o  
+  //ex 3: 3º Forma de fazer => Mais dificil, utilizando oq acabamos de aprender mais ainda nao conseguir tirar o  
   // calcularDesconto do array quando é chamado no console, arrow function dentro
   // da classe "Estudante", =>"calcularDesconto: [Function: calcularDesconto],"      =)
  

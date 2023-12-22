@@ -13,7 +13,7 @@ const io = require("../io/io")
 
 const numeros = [1,2,3,4,5]
 
-// ex1: Mais facil
+// ex1: 2º Forma de fazer => Mais facil
 
 function dobrarNumeros(numeros,callback){
     const novoValor = numeros.map((item)=>{
@@ -31,7 +31,7 @@ console.log(resultado)
 
 console.log('-----------------------------')
 
-// ex2: Mais dificil
+// ex2: 2º Forma de fazer => Mais dificil
 
 function dobrarNumeros2(element){
     const novoValor = element.map((item)=>{

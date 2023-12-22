@@ -35,7 +35,7 @@ const estudantes = [
   { nome: "Ana", idade: 21 },
 ]
 
-//ex 2: Simples, mais quando chama no console  fica fora do array ideal 
+//ex 2: 2º Forma de fazer => Simples, mais quando chama no console  fica fora do array ideal 
 //  =>    { estudante: { nome: 'João', idade: 20 }, desconto: 0.05 },
 // resultado fique dentro do array, fazer outra tentativa    =)
 

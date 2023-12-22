@@ -14,7 +14,7 @@
 
 const io = require('../io/io')
 
-    // ex 1: Simples  =)
+    // ex 1: 1º Forma de fazer => Simples  =)
 const produtos = [
  { id: 1, nome: 'Camiseta', preco: 29.9, quantidade: 2 },
  { id: 2, nome: 'Calça', preco: 59.9, quantidade: 1 },
