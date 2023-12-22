@@ -10,7 +10,7 @@
 // quantidade de cada produto.
 // ❖ Exemplo de uso:
 // const totalCompra = calcularTotalCompra(produtos)
-// console.log(totalCompra) // Output: 468.90
+// console.log(totalCompra) // Output: 468.90 esse é o resultado
 
 const io = require('../io/io')
 
@@ -31,3 +31,4 @@ const calcularTotalCompra =(produtos)=>{
 
 const totalCompra = calcularTotalCompra(produtos)
 console.log(totalCompra)
+
