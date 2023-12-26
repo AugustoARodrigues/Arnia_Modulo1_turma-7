@@ -1,0 +1,19 @@
+.fonte{
+    font-family: 'Poppins', sans-serif;
+    /* transition: background-color 0.5s, color 0.5s; */
+    /*se desejo colocar animação e tempo, nao é necessario, no momento*/
+}
+button{
+    background-color:black;
+    border: none;
+    font-size: 30px;
+    color: white;
+    border-radius: 8px;
+}
+
+#fonte.dark{ /*Seletor de ID para estilizar o elemento com ID "fonte" quando a classe "dark" está presente.*/
+    background-color: black;
+    color:white;
+}
+
+
