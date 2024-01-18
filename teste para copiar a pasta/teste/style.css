@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    /* background-color: rgb(99, 96, 96); */
+  }
+  
+  .conteudo1 {
+    width: 785px;
+    font-size: 24px;
+    color: #2b2b2b;
+    padding: 2em 0 0 2em;
+  }
+  
+  .formulario {
+    width: 372px;
+    height: 580px;
+    border-radius: 15px;
+    border: 2px solid #6950a1;
+    margin-left: 40%;
+    /* position: absolute; */
+    /* left: 880px; */
+  }
+  
+  .qformulario {
+    background-color: #1a1033;
+    width: 372px;
+    height: 60px;
+    top: 150px;
+    left: 1001px;
+    border-radius: 15px;
+  }
+  
+  .conteudoformulario {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+    padding: 1em;
+  }
+  
+  .conteudoformulario2 {
+    padding: 1em;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #2b2b2b;
+    margin-top: 12px;
+  }
+  
+  input {
+    width: 332px;
+    height: 32px;
+    margin-top: 12px;
+    border-radius: 5px;
+    border: 1px solid #6950a1;
+  }
+  
+  .button {
+    margin-left: 1em;
+    display: flex;
+  
+  }
+  
+  .buttonativo {
+    width: 39%;
+    height: 49px;
+    border-radius: 20px;
+    background-color: #6950a1;
+    border: none;
+    box-shadow: 0 0 2px 1px #2b2b2b;
+    color: #ffffff;
+   margin-left: 15px;
+  }
+  
+  button:hover{
+      background-color: #000;
+  }
+  
+  .content{
+      margin-top: 55px;
+  }
+  
+  table{
+      border-collapse: collapse;
+      width: 100%;
+      border: none;
+      
+  }
+  
+  table th{
+      background-color: #68529D;
+      color: white;
+      padding: 1em;
+      text-align: left;   
+  }
+  
+  td{
+      padding: 1em;
+  }
+  th:first-child{
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+  }
+  th:last-child{
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+  }
+  
+  tr:nth-child(odd){
+      background-color:#f5f5f5;
+  }
+  tr:nth-child(even){
+      background-color:#e0dfdf;
+  }

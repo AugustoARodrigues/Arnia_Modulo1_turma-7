@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(197, 171, 197);
+}
+.conteiner{
+    width: 80%;
+    background-color: rgb(229, 222, 229);
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 1px 5px 1px gray;
+}
+.titulo h1{
+    color:blueviolet;
+    font-size: 70px;
+    text-align: center;
+}
+
+.plans {
+    color: #000;
+}
+
+.subtitulo{
+    text-align: center;
+    margin-top: -50px;
+}
+.inpselecao {
+    margin: 0 30px 10px 30px;
+    width: 50px;
+    height: 10px;
+}
+.selecaoMeseAno{
+    text-align: center;
+}
+.selecaoMeseAno h5 {
+    display: inline-block;
+    margin: 20px 0  ;
+    font-size: 26px;
+}
+
+.conteiner1{
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    margin: 80px 1px 20px 20px;
+    vertical-align: top; /* Alinhe os elementos ao topo para resolver a questão de alinhamento */
+    background-color: #fff;
+    box-shadow: 0 1px 5px 1px gray;
+    border-radius: 8px;
+}
+
+h5{
+    margin-left: 15px;
+}
+
+.conteudo h2 .valor{
+    font-size: 50px;
+    margin-left: 10px;
+}
+.month{
+    color: rgb(126, 125, 125);
+}
+
+.linha{
+    width: 80%;
+    height: 2px;
+    background-color: gray;
+    margin: auto;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+li .text2 {
+    margin-left: 35px;
+}
+
+li .text4{
+    margin-left: 35px;
+}
+img{
+    width:20px ;
+    height:20px ;
+    margin-right: 15px;
+}
+
+button{
+    width: 280px;
+    height: 50px;
+    background-color:blueviolet ;
+    color: #fff;
+    margin: 10px;
+    border: none;
+    border-radius: 18px;
+}
+
+
+
+.butao_1{
+    margin-top: 130px;
+}
+.butao_2{
+    margin-top: 95px;
+}
+
+.butao_4{
+    margin-top: 60px;
+}

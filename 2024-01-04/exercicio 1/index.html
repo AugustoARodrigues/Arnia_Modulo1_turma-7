@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Exercicio 1 04-01-2024</title>
+</head>
+<body>
+    <div class="quadrado">
+        <h3>Insira os dados do produto </h3><br>
+        <form id="formulario">
+            <section>
+                <label for="codigo">Codigo</label>
+                <input type="text" id="codigo" name="codigo" required />
+            </section>
+            <section>
+                <label for="nome">Nome</label>
+                <input  type="text" id="nome" placeholder="Digite o Produto" required />        </section>
+            </section>         
+            <section>
+                <label for="categoria">Categoria</label>
+                <select name="categoria" id="categoria">
+                    <option value="">Selecione</option>
+                    <option value="alimento">Alimento</option>
+                    <option value="limpeza"> Limpeza</option>
+                    <option value="higiene"> Higiene</option>
+                </select>
+            </section>
+            <section>
+                <label for="preco">Preço</label>
+                <input type="number" id="preco" placeholder="R$" required />
+            </section>
+            <section>
+                <label for="quantidade">Quantidade</label>
+                <input  type="text" id="quantidade" placeholder="1" required />
+            </section>
+            <button type="submit" class="botao">Cadastrar</button>
+        </form>
+    </div>
+
+    <div class="resultado revelar" id="resultado"></div>
+</body>
+</html>

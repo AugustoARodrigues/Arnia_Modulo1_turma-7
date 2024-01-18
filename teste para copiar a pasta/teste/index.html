@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app2.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 6- Receso</title>
+</head>
+
+<body>
+    <div>
+        <form class="formulario">
+            <div class="qformulario">
+                <p class="conteudoformulario">
+                    Lista de Alunos da Arnia
+                </p>
+            </div>
+
+            <div class="conteudoformulario2">
+                <div class="conteudoformulario2-1">
+                    <label for="nome">Name*</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o Nome">
+                </div>
+                <div class="">
+                    <label for="email">E-mail*</label>
+                    <input type="email" name="email" id="email" placeholder="Digite o Email">
+                </div>
+                <div class="">
+                    <label for="cpf">Cpf</label>
+                    <input type="number" name="cpf" id="cpf" placeholder="Digite o Cpf">
+                </div>
+                <div class="">
+                    <label for="rg">RG</label>
+                    <input type="number" name="rg" id="rg" placeholder="Digite o Rg">
+                </div>
+                <div class="">
+                    <label for="nasc">Data de Nascimento</label>
+                    <input type="date" name="nasc" id="nasc">
+                </div>
+            </div>
+
+            <div class="button">
+                <button onclick="carregarAlunos()" class="buttonativo" type="submit">Salvar</button>
+                <button onclick="" class="buttonativo" type="submit">Cancelar</button>
+            </div>
+        </form>
+
+        <div class="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nome</th>
+                        <th>RG</th>
+                        <th>CPF</th>
+                        <th>E-mail</th>
+                        <th>Data de Nascimento</th>
+                        <th colspan="2">Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    <tr></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
