@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="novaNoticia.js" defer></script>
+    <title>novaNoticia</title>
+</head>
+<body>
+    <div class="cabecario">
+        <img src="./imagens/Arnia.png" alt="" />
+        <h2>Nova Noticia</h2>
+        <a class="cabecarioLink" href="index.html">Voltar</a>
+      </div>
+
+      <div class="quadrado">
+        <h3>Insira os dados do produto </h3><br>
+        <form id="formulario">
+            <section>
+                <label for="titulo">Titulo</label>
+                <input type="text" id="titulo" name="titulo" />
+            </section>
+            <section>   
+                <label for="autor">Autor(a)</label>
+                <input  type="text" id="autor" />        
+            </section>         
+
+            <section>
+                <label for="imagemSelecao">Imagem de destaque</label>
+                <input type="text" id="imagemSelecao" name="imagemSelecao">
+            </section>
+            <section>
+                <label for="texto">texto</label>
+                <textarea id="textoDescricao" name="textoDescricao"></textarea>
+            </section>
+            <button type="submit" class="botaoSalvar">Salvar</button>
+        </form>
+    </div>
+</body>
+</html>

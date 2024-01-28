@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "imagem": "https://tntsports.com.br/__export/1697987352768/sites/esporteinterativo/img/2023/09/08/messi_-_gettyimages-1666723898.jpg_423682103.jpg",
+      "title": "'Estamos mortos. É um golpe muito duro', diz Messi após derrota da Argentina",
+      "descricao": "O atacante Lionel Messi, da Argentina, usou palavras fortes para expressar a tristeza pela derrota por 2 a 1 para a Arábia Saudita, nesta terça-feira, na abertura do Grupo C da Copa do Mundo..."
+    }
+  ],
+  "artigos": [
+    {
+      "id": "3626",
+      "title": "Estamos mortos. É um golpe muito duro', diz Messi após derrota da Argentina",
+      "author": "Augusto",
+      "imagem": "https://tntsports.com.br/__export/1697987352768/sites/esporteinterativo/img/2023/09/08/messi_-_gettyimages-1666723898.jpg_423682103.jpg",
+      "descricao": "O atacante Lionel Messi, da Argentina, usou palavras fortes para expressar a tristeza pela derrota por 2 a 1 para a Arábia Saudita, nesta terça-feira, na abertura do Grupo C da Copa do Mundo..."
+    }
+  ]
+}
