@@ -15,11 +15,11 @@ const carregarEstilo = () => {
   // Verifica se a classe "dark" está presente.
   if (body.classList.contains("dark")) {
     // Se presente, atualiza o texto do botão para 'Dark Mode'.
-    body.classList.remove("dark");
-    mudanca.innerHTML = "Dark";
+    body.classList.remove("dark")
+    mudanca.innerHTML = "Dark"
   } else {
-    mudanca.innerHTML = "Dark Mode";
-    body.classList.add("dark");
+    mudanca.innerHTML = "Dark Mode"
+    body.classList.add("dark")
     // Se ausente, atualiza o texto do botão para 'Dark'.
   } // apos o primeiro click mudar para o normal
 };
