@@ -18,7 +18,7 @@ const mostrarPosts = (postagens) =>{
             <h2>${post.title}</h2>
             
             <p>${post.descricao}</p>
-            <a href="../Exercicio 1 Blog Pt2/Html/editar.html?id=${post.id}">
+            <a href="../Exercicio 1 Blog Pt3/Html/editar.html?id=${post.id}">
             <button class="editar">Editar</button></a>
         </div>
     </div>

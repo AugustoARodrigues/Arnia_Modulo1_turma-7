@@ -19,7 +19,7 @@ const aquiPosts = async ()=>{
 const mostrarPosts = (postagens) =>{
 
     const postsDiv = document.querySelector('.noticias')
-    postsDiv.innerHTML = '' //aqui
+    postsDiv.innerHTML = '' 
     postagens.forEach(post => {
         postsDiv.innerHTML +=
         `
